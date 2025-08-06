@@ -1,12 +1,17 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "qiskit-utils-sj"
 version = "0.1.0"
-description = "A simple utility module for Qiskit beginners by Sunjun Hwang"
+description = "A beginner-friendly Qiskit utility package for quantum computing. Provides ready-to-use quantum circuits (Bell, GHZ), quick simulation tools, and Bloch sphere visualization to simplify quantum algorithm prototyping."
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = ["qiskit>=1.0", "matplotlib"]
-
+keywords = [
+    "quantum-computing",
+    "qiskit",
+    "quantum-algorithms",
+    "quantum-circuits",
+    "simulation",
+    "bloch-sphere",
+    "visualization",
+    "educational"
+]
